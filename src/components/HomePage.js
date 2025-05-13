@@ -20,7 +20,7 @@ import ElectricYachts from './ElectricYachts'
 const HomePage = () => {
   return (
     <>
-    <section className="text-center py-5">
+    <section className="text-center py-5 mt-5">
     <h2 className="section-title heading-text-css">Welcome to Canal Boats Telemark!</h2>
     <p className="mb-5 text-content-css">Meet the world’s first fully electric yacht fleet. High-end motor boats use 100% renewable electric energy. We <br />
      guarantee you a green holiday along one of Norway’s most beautiful waterways.</p>

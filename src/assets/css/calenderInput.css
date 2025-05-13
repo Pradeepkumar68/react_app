@@ -1,55 +1,55 @@
 .search-form .form-control {
-      border-radius: 5px 0 0 5px;
-      color: #6c757d;
-      border-right: none;
-    }
-    .search-form .form-control::placeholder {
-      color: #6c757d;
-    }
-    .input-group {
-      border: 1px solid #ced4da;
-      border-radius: 5px;
-      width: 100%;
-    }
-    .input-group-text {
-      background-color: #fff;
-      border: none;
-      border-radius: 0 5px 5px 0;
-      padding: 0 0.75rem;
-      color: #6c757d;
-      display: flex;
-      align-items: center;
-    }
-    .search-form {
-      width: 100%;
-    }
-    .search-form label {
-      font-size: 0.875rem;
-    }
-    .search-btn {
-      width: 25%;
-      max-width: 200px;
-      text-align: center;
-      justify-content: center;
-      height: 38px; 
-    }
-    @media (min-width: 768px) {
-      .search-form {
-        align-items: flex-end; 
-      }
-      .search-btn {
-        margin-top: 0;
-      }
-    }
-    @media (max-width: 767px) {
-      .search-form .form-control {
-        font-size: 0.875rem;
-      }
-      .search-form label {
-        font-size: 0.75rem;
-      }
-      .search-btn {
-        max-width: 100%;
-        font-size: 0.875rem;
-      }
-    }
+  border-radius: 5px 0 0 5px;
+  color: #6c757d;
+  border-right: none;
+}
+.search-form .form-control::placeholder {
+  color: #6c757d;
+}
+.input-group {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 100%;
+}
+.input-group-text {
+  background-color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 0 0.75rem;
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+}
+.search-form {
+  width: 100%;
+}
+.search-form label {
+  font-size: 0.875rem;
+}
+.search-btn {
+  width: 25%;
+  max-width: 200px;
+  text-align: center;
+  justify-content: center;
+  height: 38px;
+}
+@media (min-width: 768px) {
+  .search-form {
+    align-items: flex-end;
+  }
+  .search-btn {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .search-form .form-control {
+    font-size: 0.875rem;
+  }
+  .search-form label {
+    font-size: 0.75rem;
+  }
+  .search-btn {
+    max-width: 100%;
+    font-size: 0.875rem;
+  }
+}

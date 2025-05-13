@@ -1,6 +1,9 @@
 import "../../assets/css/navbar.css";
 import whitelogo from "../../assets/image/whitelogo.png";
 import BookNow from "../../assets/image/Frame.png";
+import SearchIcon from "../../assets/image/Search.png";
+import cartIcon from "../../assets/image/cartIcon.png";
+
 const NavBar = () => {
   return (
     <>
@@ -10,7 +13,7 @@ const NavBar = () => {
             <img src={whitelogo} alt="logo" className="img-fluid"/>
           </div>
           <div className="d-flex align-items-center">
-            <div className="dropdown me-3">
+            <div className="dropdown me-4">
               <div
                 className="btn  text-white dropdown-toggle"
                 id="bookingDropdown"
@@ -34,7 +37,7 @@ const NavBar = () => {
               </ul>
             </div>
 
-            <div className="dropdown me-3">
+            <div className="dropdown me-4">
               <div
                 className="btn  text-white dropdown-toggle"
                 id="servicesDropdown"
@@ -58,7 +61,7 @@ const NavBar = () => {
               </ul>
             </div>
 
-            <div className="dropdown me-3">
+            <div className="dropdown me-4">
               <div
                 className="btn  text-white dropdown-toggle"
                 id="infoDropdown"
@@ -82,15 +85,21 @@ const NavBar = () => {
               </ul>
             </div>
 
-            <a href="/" style={{ textDecoration: "none" }} className="text-white me-3">Contact Us</a>
-            <i className="bi bi-search text-white me-4"></i>
-            <i className="bi bi-cart text-white me-4 position-relative">
+            <a href="/" style={{ textDecoration: "none" }} className="text-white me-5">Contact Us</a> 
+                
+            {/* <i className="bi bi-cart text-white me-4 position-relative">
               <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
                 2
               </span>
-            </i>
-            
-             <button className="btn px-4" tabIndex="0" style={{ width: "160px",  height: 'auto'}}> 
+            </i> */}
+
+            <div className="d-flex align-items-center gap-3">
+              <div> <img src={SearchIcon} alt="search icon" className="img-fluid text-white" /></div>
+              <div> <img src={cartIcon} alt="cart icon" className="img-fluid text-white position-relative" /> </div>
+            </div>
+
+             
+             <button className="btn px-4" tabIndex="0" style={{ width: "150px",  height: 'auto'}}> 
                 <img src={BookNow} alt='book now' className='img-fluid'/>
               </button>
           </div>
