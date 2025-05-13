@@ -1,0 +1,56 @@
+.main-content {
+  background: url('../image/banner.jpg') no-repeat center center;
+  background-size: cover;
+  height: calc(100vh - 100px);
+  position: relative;
+}
+.content-container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 15px;
+}
+h1 {
+  line-height: 1.2;
+}
+.lead {
+  font-size: 1.25rem;
+}
+.small {
+  font-size: 0.9rem;
+}
+.phone-icon i {
+  font-size: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.heading-text-colour{
+  color: white !important;
+}
+
+.chat-icon {
+  background-color: #daa520;
+  color: white;
+  border-radius: 17%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 209px;
+  border: 1px solid goldenrod;
+}
+
+.heading-text-colour{
+  color: white !important;
+
+}
+
+@media (max-width: 768px) {
+  .chat-icon {
+    width: 45px;
+    height: 45px;
+    bottom: 100px;
+    right: 10px;
+  }
+}

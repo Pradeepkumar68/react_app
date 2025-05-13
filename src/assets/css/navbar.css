@@ -1,0 +1,9 @@
+.navtext {
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .navtext {
+    margin-left: 0;
+  }
+}

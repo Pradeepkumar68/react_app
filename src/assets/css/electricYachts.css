@@ -1,0 +1,96 @@
+.yacht-section {
+  position: relative;
+  background: url("../../assets/image/discover_your.png") no-repeat center
+    center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  color: #333;
+}
+
+.content-overlay {
+  position: absolute;
+  right: 233px;
+  top: 55%;
+  transform: translateY(-50%);
+  padding: 24px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.yacht-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.yacht-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.feature-list {
+  font-size: 0.95rem;
+  line-height: 3.8;
+  margin-top: 10px;
+  padding: 2px;
+}
+.feature-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+.checkbox-icon::before {
+  /* content: ""; */
+  color: #f5c518;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+.contact-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  color: #f5c518;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .content-overlay {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    max-width: 100%;
+    margin: 20px;
+  }
+  .yacht-heading {
+    font-size: 2rem;
+  }
+  .yacht-section {
+    height: auto;
+    min-height: 400px;
+  }
+  .contact-icon {
+    top: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .content-overlay {
+    right: 5%;
+    left: 5%;
+    max-width: 100%;
+  }
+}
